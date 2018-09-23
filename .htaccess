@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^contacts?$ Views/contacts.php [NC,L]
+RewriteRule ^contact-edit/([0-9]+)?$ Views/contact-edit.php?contact-id=$1 [NC,L]
